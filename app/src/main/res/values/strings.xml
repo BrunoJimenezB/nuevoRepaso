@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">practica3-Tip Calculator</string>
+    <string name="percentTextView">15%</string>
+    <string name="tipLabelTextView">Tip</string>
+    <string name="totalLabelTextView">Total</string>
+    <string name="amountTextView">Enter Amount</string>
+    <string name="amountEditTex">EnterAmount</string>
+    <string name="totalTextVIew">$0.00</string>
+    <string name="tipTextView">$0.00</string>
+</resources>

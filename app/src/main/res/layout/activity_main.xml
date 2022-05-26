@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/percentSeekBar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:elevation="4dp"
+    android:rowCount="4"
+    android:useDefaultMargins="true">
+
+
+    <TextView
+        android:id="@+id/percentTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_gravity="right|center_vertical"
+        android:text="@string/percentTextView"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/tipLabelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_gravity="right|center_vertical"
+        android:text="@string/tipLabelTextView"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:layout_gravity="right"
+        android:text="@string/totalLabelTextView"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/amountEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:autofillHints=""
+        android:digits="0123456789"
+        android:ems="10"
+        android:hint="@string/amountEditTex"
+        android:inputType="number"
+        android:maxLength="6"
+        android:minHeight="48dp"
+        android:textColorHint="#455A64"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        style="@android:style/Widget.DeviceDefault.SeekBar"
+        android:layout_width="251dp"
+        android:layout_height="45dp"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal"
+        android:max="30"
+        android:progress="15" />
+
+    <TextView
+        android:id="@+id/tipTextView"
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal"
+        android:background="#FFE0B2"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:paddingBottom="@dimen/textview_padding"
+        android:text="@string/tipTextView"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/totalTextView"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal"
+        android:background="#FFE0B2"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:paddingBottom="@dimen/textview_padding"
+        android:text="@string/totalTextVIew"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/amountTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:background="#BBD0FB"
+        android:elevation="4dp"
+        android:paddingBottom="@dimen/textview_padding"
+        android:text="@string/amountTextView"
+        android:textSize="24sp" />
+
+
+</GridLayout>
